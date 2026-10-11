@@ -1,0 +1,36 @@
+# 私有数据和密钥
+private/
+legacy/
+.env
+*.key
+*.pem
+
+# 视频和音频
+*.mp4
+*.mov
+*.mkv
+*.mp3
+*.m4a
+*.wav
+*.aac
+*.flac
+
+# 模型文件
+models/
+*.bin
+*.safetensors
+*.pt
+*.onnx
+
+# 输出目录
+out/
+output/
+
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# 系统文件
+.DS_Store
+Thumbs.db

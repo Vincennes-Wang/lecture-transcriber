@@ -1,0 +1,15 @@
+[project]
+name = "lecture-transcriber"
+version = "0.0.1"
+description = "法语课程视频 → 法语原文（本地转写）"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "faster-whisper>=1.1",
+    "psutil>=5.9",
+    # av 19 删除了 open(metadata_errors=...)，faster-whisper 1.2.1 仍在使用
+    "av>=15,<18",
+]
+
+[tool.uv]
+package = false
