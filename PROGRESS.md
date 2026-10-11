@@ -22,5 +22,7 @@
 3. 阶段 1 计划（正式工具）：默认 VAD 开、cond 关；过滤片尾固定短语幻觉；输出分块文本方便粘贴。
 
 ## 未解决问题
+- Mac 本地文件夹仍叫 `~/code/video-text`（GitHub 已改名）。用户可选择改名：关闭 Claude Code 后 `mv ~/code/video-text ~/code/lecture-transcriber`，再删除 `.venv`（`uv run` 会自动重建）。
+- 用户反馈找不到某个文件夹；已在 `docs/windows-bench.md` 补充 ZIP 解压后多一层文件夹的说明。如果指的是别的文件夹，下次确认。
 - 峰值内存随视频长度增加（9 分钟 1.9 GB → 69 分钟 4.5 GB），原因未确认。
 - Windows 上的速度未知。

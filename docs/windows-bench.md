@@ -13,7 +13,8 @@
 
 ## 2. 下载仓库
 1. 打开 https://github.com/Vincennes-Wang/lecture-transcriber/archive/refs/heads/main.zip ，下载 ZIP。
-2. 右键 ZIP →“全部解压缩”。得到文件夹 `lecture-transcriber-main`。
+2. 右键 ZIP →“全部解压缩”→“提取”。
+3. Windows 会多套一层文件夹：`lecture-transcriber-main\lecture-transcriber-main\`。**双击进到里面那一层**，能看到 `scripts`、`docs`、`pyproject.toml` 的那个文件夹才是正确位置。下面所说的 `lecture-transcriber-main` 都指这一层。
 
 ## 3. 放入测试视频
 1. 在 `lecture-transcriber-main` 里新建文件夹 `private`。
